@@ -1,0 +1,103 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Обираємо шрифт */
+    background-color: #f7f7f7; /* Колір фону */
+    color: #333; /* Колір тексту */
+}
+
+/* Підключення Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container {
+    max-width: 600px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Вирівнюємо по центру */
+    padding: 20px; /* Відступи */
+}
+
+h1 {
+    color: #ff0066; /* Колір заголовку */
+    font-size: 2em; /* Розмір шрифту заголовку */
+    text-align: center; /* Вирівнюємо по центру */
+}
+
+p {
+    font-size: 1.1em; /* Розмір шрифту параграфа */
+    line-height: 1.6; /* Міжрядковий інтервал */
+    text-align: justify; /* Вирівнюємо по ширині */
+}
+
+.background {
+    background-image: url('fon.jpg'); /* Задаємо фонове зображення */
+    background-size: cover; /* Масштабуємо фон до розмірів контейнера */
+    background-position: center; /* Вирівнюємо фон по центру */
+    height: 100vh; /* Задаємо висоту контейнера */
+    display: flex; /* Використовуємо flexbox для вирівнювання вмісту */
+    justify-content: center; /* Вирівнюємо вміст по горизонталі */
+    align-items: center; /* Вирівнюємо вміст по вертикалі */
+}
+
+.container img {
+    max-width: 100%; /* Задаємо максимальну ширину зображення */
+    height: auto; /* Автоматично визначаємо висоту зображення */
+    display: block; /* Задаємо властивість display як block, щоб уникнути зайвих пропусків між текстом та зображенням */
+    margin: 0 auto 20px; /* Вирівнюємо зображення по центру та задаємо відступи */
+}
+body {
+    font-family: 'Montserrat', sans-serif; /* Обираємо шрифт */
+    background-color: #f7f7f7; /* Колір фону */
+    color: #333; /* Колір тексту */
+}
+
+/* Підключення Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.container {
+    max-width: 600px; /* Максимальна ширина контейнера */
+    margin: 0 auto; /* Вирівнюємо по центру */
+    padding: 20px; /* Відступи */
+}
+
+h1 {
+    color: #ff0066; /* Колір заголовку */
+    font-size: 2em; /* Розмір шрифту заголовку */
+    text-align: center; /* Вирівнюємо по центру */
+}
+
+p {
+    font-size: 1.1em; /* Розмір шрифту параграфа */
+    line-height: 1.6; /* Міжрядковий інтервал */
+    text-align: justify; /* Вирівнюємо по ширині */
+}
+
+.background {
+    background-image: url('fon.jpg'); /* Задаємо фонове зображення */
+    background-size: cover; /* Масштабуємо фон до розмірів контейнера */
+    background-position: center; /* Вирівнюємо фон по центру */
+    height: 100vh; /* Задаємо висоту контейнера */
+    display: flex; /* Використовуємо flexbox для вирівнювання вмісту */
+    justify-content: center; /* Вирівнюємо вміст по горизонталі */
+    align-items: center; /* Вирівнюємо вміст по вертикалі */
+}
+
+.container img {
+    max-width: 100%; /* Задаємо максимальну ширину зображення */
+    height: auto; /* Автоматично визначаємо висоту зображення */
+    display: block; /* Задаємо властивість display як block, щоб уникнути зайвих пропусків між текстом та зображенням */
+    margin: 0 auto 20px; /* Вирівнюємо зображення по центру та задаємо відступи */
+}
+.heart-button {
+    width: 100px; /* Збільшуємо ширину кнопки */
+    height: 100px; /* Збільшуємо висоту кнопки */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 0 auto; /* Вирівнюємо по центру */
+    display: block; /* Змінюємо тип відображення, щоб вирівняти по центру */
+        }
+
+.heart-icon {
+    width: 100%; /* Збільшуємо ширину серця */
+    height: 100%; /* Збільшуємо висоту серця */
+    fill: red;
+}
